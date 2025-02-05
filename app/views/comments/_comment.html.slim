@@ -1,0 +1,8 @@
+div id="#{dom_id comment}"
+  div.p-3.border.rounded-lg.bg-gray-100
+    p.font-semibold.text-gray-800
+      strong Body:
+      =< comment.body
+    p.text-gray-800
+      strong Commented by:
+      =< comment.user.first_name
