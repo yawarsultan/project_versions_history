@@ -22,5 +22,7 @@ Steps to run the project:
 1. Clone the repository
 2. Install ruby 3.4.0 and rails 7.2.2.1
 3. Run `bundle install`
-4. Run `rails db:migrate`
-5. Run `./bin/dev` to start the server
+4. Setup database credentials in `config/database.yml`
+5. Run `rails db:create`
+6. Run `rails db:migrate`
+7. Run `./bin/dev` to start the server
